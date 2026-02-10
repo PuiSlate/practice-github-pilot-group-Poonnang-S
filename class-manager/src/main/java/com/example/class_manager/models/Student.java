@@ -1,12 +1,12 @@
 package com.example.class_manager.models;
 
-public class Students {
+public class Student {
     private int id;
     private String firstName;
     private String lastName;
     private int gradeLevel;
 
-    public Students(int id, String firstName, String lastName, int gradeLevel) {
+    public Student(int id, String firstName, String lastName, int gradeLevel) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

@@ -1,6 +1,6 @@
 package com.example.class_manager.models;
 
-public class Teachers {
+public class Teacher {
 
     private int id;
     private String firstName;
@@ -8,7 +8,7 @@ public class Teachers {
     private String subject;
 
 
-    public Teachers(int id, String firstName, String lastName, String subject) {
+    public Teacher(int id, String firstName, String lastName, String subject) {
         this.id = id;
         this.firstName = firstName;
         this.subject = subject;
