@@ -9,10 +9,14 @@
         <module name="class-manager" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="target" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="class-manager" options="-parameters" />
+      <module name="target" options="-parameters" />
     </option>
   </component>
 </project>
