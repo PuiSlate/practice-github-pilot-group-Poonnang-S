@@ -3,13 +3,14 @@ package com.example.class_manager.models;
 public class Teachers {
 
     private int id;
-    private String name;
+    private String firstName;
+    private String lastName;
     private String subject;
 
 
-    public Teachers(int id, String name, String subject) {
+    public Teachers(int id, String firstName, String lastName, String subject) {
         this.id = id;
-        this.name = name;
+        this.firstName = firstName;
         this.subject = subject;
     }
 
@@ -21,12 +22,20 @@ public class Teachers {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getSubject() {
